@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="prose lg:prose-xl">
     <ContentDoc />
   </main>
 </template>
