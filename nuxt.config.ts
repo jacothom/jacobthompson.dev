@@ -4,6 +4,11 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   modules: [
       '@nuxt/content',
-      '@nuxtjs/tailwindcss'
-  ]
+      '@nuxtjs/tailwindcss',
+  ],
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
+  }
 })
