@@ -1,5 +1,5 @@
-import { Config } from 'tailwindcss';
+import { Config } from "tailwindcss";
 
-export default <Config> {
-  plugins: [require('@tailwindcss/typography')]
-}
+export default <Config>{
+  plugins: [require("@tailwindcss/typography")],
+};
