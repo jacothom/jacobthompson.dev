@@ -5,7 +5,7 @@
       <Meta name="description" :content="article.description" />
     </Head>
 
-    <div>
+    <div class="mx-auto max-w-2xl xl:relative">
       <article class="mt-16 sm:mt-32">
         <header class="flex flex-col">
           <h1
