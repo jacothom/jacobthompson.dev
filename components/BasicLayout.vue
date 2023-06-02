@@ -9,6 +9,7 @@
       <p v-if="subtitle" class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
         {{ subtitle}}
       </p>
+      <slot></slot>
     </header>
   </div>
 </template>
